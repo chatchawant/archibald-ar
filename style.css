@@ -36,7 +36,7 @@ body {
 
 .carousel {
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
   overflow: hidden;
   cursor: grab;
   display: flex;
@@ -222,4 +222,26 @@ body {
   &:hover {
     background-color: #eaeaea;
   }
+}
+
+.parent {
+  position:relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.299)018;
+  border-color: #000;
+}
+
+.image1 {
+  position: relative;   
+  height: 60%;
+  width: auto;
+  max-width: 100%;
+  max-height: 60px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }

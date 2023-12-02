@@ -5,13 +5,15 @@ canvas.deepar {
   margin: auto;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   max-width: 100%;
-  max-height: 100svh - 6rem;
+  max-height: 100svh;
 }
 
 body {
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
+  max-width: 100%;
+  max-height: 100svh;
 }
 
 #loading-screen,

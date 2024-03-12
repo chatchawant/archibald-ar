@@ -19,6 +19,7 @@
   </head>
 
   <body>
+    
     <!-- loading screen -->
     <div class="fixed-fullscreen" id="loading-screen">
       <div
@@ -61,15 +62,15 @@
     
 
     <!-- AR screen -->
-
+      
+      
 
       <!-- <canvas class="deepar" id="deepar-canvas"></canvas> -->
       <div class="fixed-fullscreen screen" id="ar-screen" style="display: none">
       <a href="https://kale-chiton-fkjd.squarespace.com/"><img class="image1" src="images/LOGO_AR-CO-02.png">
       </a>
 
-      
-
+      <!-- carousel  -->
       <div class="carousel" id="carousel">
         <div class="carousel-center" id="carousel-center">
           <div class="lds-ring" id="loading-spinner" style="display: none">
@@ -125,6 +126,31 @@
         </div>
       </div>
     </div>
+
+          <!-- screenshot taken  -->
+          <div id="screenshow" class="screenshot-contatinere" 
+          style="
+          position: absolute;
+          left: 50%;
+          top: 47%;
+          
+          transform: translate(-50%,-50%);
+          transform: translate3d(-50%,-50%,0);
+  
+          width: 90vw;
+          height: 70svh;
+          display: none;
+          border-radius: 10px;
+          box-shadow: 0 10px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);"  
+        >
+        <button style="position: relative; background-color: white; width: 100%; height: 50px; font-family: 'Arimo', sans-serif;
+        font-size: 15px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-color: white; color:rgb(95, 95, 95);"> Long press on image to save.</button>
+
+        <img class="image1"  id="screenshot-image" style="object-fit: cover; position: relative ;width: 100%; height: 100%;"  src=""></a>
+        
+        <button id="screenshot-close" style="position: relative; background-color: white; width: 100%; height: 50px; font-family: 'Arimo', sans-serif;
+        font-size: 20px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-color: white; color:rgb(95, 95, 95);"> close</button>
+        </div>
 
     <script type="text/javascript" src="main.js"></script>
   </body>
